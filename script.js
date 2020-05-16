@@ -55,4 +55,5 @@ function displayMatches() {
 const searchInput = document.querySelector('.search');
 const suggestions = document.querySelector('.suggestions');
 
+//thanks to https://github.com/jcurtis808 for the tip on using input vs. using both change and keyup for the event Listener!!
 searchInput.addEventListener('input', displayMatches);
